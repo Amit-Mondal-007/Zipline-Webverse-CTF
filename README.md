@@ -1,5 +1,7 @@
 # Zipline — Webverse CTF Write-up
 
+![Zipline challenge overview](assets/zipline1.webp)
+
 **Platform:** Webverse CTF  
 **Challenge:** Zipline  
 **Difficulty:** Medium  
@@ -47,8 +49,6 @@ Location: /login
 This identifies the application as a login-protected Case Export Portal.
 
 ## 3. Step One — Log in with Default Credentials
-
-![Zipline challenge overview](assets/zipline3.webp)
 
 The challenge points toward default credentials. Try `admin:admin`:
 
@@ -251,7 +251,7 @@ The request has successfully reached the internal API and authenticated as the `
 
 ## 8. Step Six — Retrieve the Flag
 
-![Internal configuration response](assets/zipline1.webp)
+![Internal configuration response](assets/zipline3.webp)
 
 The challenge points toward a privileged internal configuration endpoint. Request it using the internal virtual host and the bearer token:
 
